@@ -1,0 +1,23 @@
+{
+  "name": "basic_js",
+  "version": "1.0.0",
+  "description": "Learning nodejs",
+  "main": "play.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AartiBhagtani/nodejs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AartiBhagtani/nodejs/issues"
+  },
+  "homepage": "https://github.com/AartiBhagtani/nodejs#readme",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
