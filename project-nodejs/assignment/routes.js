@@ -20,8 +20,8 @@ const requestHandler = (req, res) => {
             const username = parsedBody.split('=')[1]
             console.log(`username is ${username}`)
         })
-        res.statusCode = 302
-        res.setHeader('Location', '/')    
+        res.statusCode = 302;
+        res.setHeader('Location', '/');   
         res.end();
     }
 
